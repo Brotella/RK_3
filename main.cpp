@@ -42,7 +42,7 @@ int main()
     }
     cout << "\n" << "Complete! \n";
 
-	int max = sorted_array[0];
+    int max = sorted_array[0];
     for (int count = 1; count < size; count++)
     {
 
