@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
  
-void bubbleSort(int* ptr, int length) // сортировка пузырьком
+void bubbleSort(int* ptr, int length) // Г±Г®Г°ГІГЁГ°Г®ГўГЄГ  ГЇГіГ§Г»Г°ГјГЄГ®Г¬
 {
  int temp = 0;
  bool exit = false;
@@ -42,15 +42,15 @@ int main()
     }
     cout << "\n" << "Complete! \n";
 
-	int min = sorted_array[0];
+	int max = sorted_array[0];
     for (int count = 1; count < size; count++)
     {
 
-    if ( min < sorted_array[count] )
-    min = sorted_array[count];
+    if ( max < sorted_array[count] )
+    max = sorted_array[count];
 
     }
-    cout << "Max element: " << min << endl;
+    cout << "Max element: " << max << endl;
     system("pause");
     return 0;
 }
